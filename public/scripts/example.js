@@ -10,6 +10,12 @@
  * WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
  */
 
+var css = require("../css/base.css");
+var React = require('react');
+var ReactDOM = require('react-dom');
+var Remarkable = require('remarkable');
+var $ = require("jquery");
+
 var Comment = React.createClass({
   rawMarkup: function() {
     var md = new Remarkable();
