@@ -1,6 +1,6 @@
 module.exports = {
 	entry: './public/scripts/example.js',
-	output: { path: __dirname + '/public/', publicPath: '/public/', filename: 'bundle.js' },
+	output: { path: __dirname + '/public/', filename: 'bundle.js' },
 	module: {
 		loaders: [
 			{
