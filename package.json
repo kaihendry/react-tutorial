@@ -20,7 +20,7 @@
     "react-dom": "^15.3.2",
     "remarkable": "^1.7.1",
     "style-loader": "^0.13.1",
-    "webpack": "^1.13.2"
+    "webpack": "^5.94.0"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
